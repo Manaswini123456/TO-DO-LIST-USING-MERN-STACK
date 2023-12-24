@@ -10,7 +10,7 @@ const Connection = ()=>{
 
     mongoose.set("strictQuery", false);
 
-    const MONGODB_URI = `mongodb+srv://${USERNAME}:${PASSOWRD}@cluster0.qcoffss.mongodb.net/test`
+    const MONGODB_URI = `mongodb+srv://root:root@cluster0.qcoffss.mongodb.net/todos`
     //const URL_CONNECTIVITY = 'mongodb://localhost:27017'
     mongoose.connect(MONGODB_URI,{
         useNewUrlParser : true
