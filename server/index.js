@@ -8,7 +8,13 @@ import Routes from './routes/route.js';
 const app = express();
 
 
-app.use(cors());
+app.use(cors(
+    {
+        origin:["https://to-do-list-using-mern-stack.vercel.app/"],
+        methods:["POST","GET","PUT","DELETE"],
+        credentials:true
+    }
+));
 
 app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }))
