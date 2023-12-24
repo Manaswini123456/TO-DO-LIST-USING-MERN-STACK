@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { ADDNEW_TODO,GETALL_TODO,TOGGLE_TODO,UPDATE_TODO,DELETE_TODO,TOGGLE_TAB } from './type.js';
 
-const API_URL = 'https://to-do-list-using-mern-stack-rt1f.vercel.app'; //No https
+const API_URL = ' '; //No https
 
 
 export const addNewTodo = (data) => async (dispatch) => {
