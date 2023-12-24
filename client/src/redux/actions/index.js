@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { ADDNEW_TODO,GETALL_TODO,TOGGLE_TODO,UPDATE_TODO,DELETE_TODO,TOGGLE_TAB } from './type.js';
 
-const API_URL = 'http://localhost:8080'; //No https
+const API_URL = 'https://backend-chi-eight-39.vercel.app'; //No https
 
 
 export const addNewTodo = (data) => async (dispatch) => {
