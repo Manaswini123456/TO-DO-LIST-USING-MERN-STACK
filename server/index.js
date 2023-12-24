@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin:["https://to-do-list-using-mern-stack.vercel.app"],
+        origin:["https://to-do-list-using-mern-stack-60pwrusko-manaswini123456.vercel.app/"],
         methods:["POST","GET","PUT","DELETE"],
         credentials:true
     }
